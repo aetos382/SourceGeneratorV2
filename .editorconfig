@@ -12,5 +12,5 @@ indent_size = 4
 [*.json]
 indent_size = 2
 
-[*.{xml,csproj,vsixmanifest}]
+[*.{xml,csproj,targets,props,vsixmanifest}]
 indent_size = 2

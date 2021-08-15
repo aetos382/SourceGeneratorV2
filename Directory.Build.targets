@@ -1,0 +1,5 @@
+<Project>
+  <ItemGroup>
+    <None Update="packages.lock.json" Visible="False" />
+  </ItemGroup>
+</Project>
