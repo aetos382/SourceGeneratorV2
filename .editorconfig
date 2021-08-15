@@ -1,0 +1,16 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_style = space
+trim_trailing_whitespace = true
+
+[*.cs]
+indent_size = 4
+
+[*.json]
+indent_size = 2
+
+[*.{xml,csproj,vsixmanifest}]
+indent_size = 2
