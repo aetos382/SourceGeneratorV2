@@ -2,5 +2,8 @@
 bin/
 obj/
 
+*.log
+*.binlog
+
 launchSettings.json
 *.user
