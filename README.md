@@ -1,2 +1,2 @@
-= README
+# SourceGeneratorV2
 TBD
