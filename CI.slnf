@@ -1,0 +1,10 @@
+{
+    "solution": {
+        "path": "SourceGeneratorV2.sln",
+        "projects": [
+            "SourceGeneratorV2\\SourceGeneratorV2.csproj",
+            "SourceGeneratorV2.UnitTests\\SourceGeneratorV2.UnitTests.csproj",
+            "SourceGeneratorV2.IntegrationTests\\SourceGeneratorV2.IntegrationTests.csproj"
+        ]
+    }
+}

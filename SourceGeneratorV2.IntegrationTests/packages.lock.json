@@ -177,6 +177,9 @@
         "dependencies": {
           "xunit.extensibility.core": "[2.4.1]"
         }
+      },
+      "sourcegeneratorv2": {
+        "type": "Project"
       }
     },
     "net6.0": {
@@ -1318,6 +1321,9 @@
           "NETStandard.Library": "1.6.1",
           "xunit.extensibility.core": "[2.4.1]"
         }
+      },
+      "sourcegeneratorv2": {
+        "type": "Project"
       }
     }
   }
