@@ -9,8 +9,8 @@ trim_trailing_whitespace = true
 [*.cs]
 indent_size = 4
 
-[*.json]
+[*.{json,slnf}]
 indent_size = 2
 
-[*.{xml,csproj,targets,props,vsixmanifest}]
+[*.{xml,csproj,config,targets,props,vsixmanifest}]
 indent_size = 2
