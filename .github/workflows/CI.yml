@@ -55,3 +55,4 @@ jobs:
       with:
         name: NuGet Packages (${{ runner.os }})
         path: '**/*.nupkg'
+        if-no-files-found: error
