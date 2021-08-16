@@ -53,5 +53,5 @@ jobs:
 
     - uses: actions/upload-artifact@v2
       with:
-        name: NuGet Packages
+        name: NuGet Packages (${{ runner.os }})
         path: '**/*.nupkg'
