@@ -1,0 +1,16 @@
+*               text=auto
+.gitattributes  text
+.gitignore      text
+.editorconfig   text
+LICENSE         text
+*.md            text diff=markdown
+*.yml           text
+*.json          text
+*.sln           text
+*.slnf          text
+*.csproj        text
+*.targets       text
+*.props         text
+*.config        text
+*.vsixmanifest  text
+*.cs            text working-tree-encoding=utf-8-bom diff=csharp
