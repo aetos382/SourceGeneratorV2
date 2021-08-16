@@ -3,7 +3,7 @@ using Microsoft.CodeAnalysis;
 namespace SourceGeneratorV2;
 
 [Generator]
-public class SampleGenerator :
+public sealed class SampleGenerator :
     IIncrementalGenerator
 {
     void IIncrementalGenerator.Initialize(
