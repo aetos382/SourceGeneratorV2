@@ -31,7 +31,8 @@ jobs:
         dotnet-version: 6.0.x
         include-prerelease: true
 
-    - uses: actions/cache@v2
+    - name: NuGet package cache
+      uses: actions/cache@v2
       with:
         path: ~/.nuget/packages
         key: ${{ runner.os }}-nuget-${{ hashFiles('**/packages.lock.json') }}
@@ -51,7 +52,8 @@ jobs:
       run: dotnet test CI.slnf --configuration Release --no-build --framework net48
       if: ${{ runner.os == 'Windows' }}
 
-    - uses: actions/upload-artifact@v2
+    - name: Uploading nuget packages as artifacts
+      uses: actions/upload-artifact@v2
       with:
         name: NuGet Packages
         path: '**/*.nupkg'
