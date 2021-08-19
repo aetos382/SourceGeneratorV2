@@ -13,4 +13,4 @@ LICENSE         text
 *.props         text
 *.config        text
 *.vsixmanifest  text
-*.cs            text working-tree-encoding=utf-8-bom diff=csharp
+*.cs            text diff=csharp

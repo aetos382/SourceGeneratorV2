@@ -1,4 +1,9 @@
-﻿using Microsoft.CodeAnalysis;
+﻿using System.Linq;
+using System.Text;
+
+using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace SourceGeneratorV2;
 
@@ -9,12 +14,5 @@ public sealed class SampleGenerator :
     void IIncrementalGenerator.Initialize(
         IncrementalGeneratorInitializationContext context)
     {
-        context.RegisterPostInitializationOutput(this.OnPostInitialize);
-    }
-
-    private void OnPostInitialize(
-        IncrementalGeneratorPostInitializationContext context)
-    {
-        context.AddSource("Foo.cs", "// foo");
     }
 }
